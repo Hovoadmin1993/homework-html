@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-1</title>
+</head>
+<body>
+    <header>
+      <h1><u> HTML Lesson 1</u></h1>
+    </header>
+
+    <article>
+        <b>Lorem</b> ipsum dolor <i>sit amet consectetur</i> adipisicing <u>elit</u> . <strong>Tempore</strong>  eveniet veniam ratione accusamus autem corporis aliquam enim dignissimos nesciunt neque rerum <a href="" target="_blank">libero</a> ,<small> est quaerat asperiores cumque repellat iusto consectetur nemo!</small>
+        <br>
+        <details>
+            <summary>
+               <u>red more</u> 
+            </summary>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, accusantium corrupti! 
+          </p>
+        </details>
+    </article>
+    <hr>
+
+    <section>
+        <div>
+            <h2><i>Ordered List</i> </h2>
+            <ol type="a">
+                <li>list1</li>
+                <li>list2</li>
+                <li>list3</li>
+                <li>list4</li>
+            </ol>
+
+            <h2><i>Unordered List</i> </h2>
+            <ul>
+                <li>list1</li>
+                <li>list2</li>
+                <li>list3</li>
+                <li>list4</li>
+            </ul>
+        </div>
+    </section>
+    <hr>
+
+    <div>
+        <pre>
+            function message() {
+                alert('Hello HTML')
+            }
+
+            message()
+        </pre>
+    </div>
+    <hr>
+
+    <section>
+        <h3>Table 1</h3>
+        <table width="700" border="2" cellspacing="0" cellpadding="5" bgcolor="gray">
+            <tbody>
+                <tr>
+                   <th>Product ID</th>
+                   <th>Product NAME</th>
+                   <th>Product QUALITY</th>
+                   <th>Quantity</th>
+                </tr>
+
+                <tr>
+                    <td align="center">1</td>
+                    <td align="center">Wheat</td>
+                    <td align="center">Good</td>
+                    <td align="center">200 Bags</td>
+                </tr>
+
+                <tr>
+                    <td align="center">2</td>
+                    <td align="center">Rise</td>
+                    <td align="center">Good</td>
+                    <td align="center">300 Bags</td>
+                </tr>
+
+                <tr>
+                    <td align="center">3</td>
+                    <td align="center">Wheat</td>
+                    <td align="center">Good</td>
+                    <td align="center">400 Bags</td>
+                </tr>
+
+                <tr>
+                    <td align="center">4</td>
+                    <td align="center">Rise</td>
+                    <td align="center">Good</td>
+                    <td align="center">500 Bags</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+
+    <section>
+        <h3>Table 2</h3>
+    <table width="700" border="1" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Heading1</th>
+          <th>Heading2</th>
+          <th>Heading3</th>
+          <th>Heading4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="4"><img src="img/html-code.jpg" alt="" width="470"></td>
+          <td colspan="3">Long row top</td>
+        </tr>
+        <tr>
+          <td>data</td>
+          <td>data</td>
+          <td>data</td>
+        </tr>
+        <tr>
+          <td>data</td>
+          <td colspan="2">merge 2 cols</td>
+        </tr>
+        <tr>
+          <td colspan="3">Long row bottom</td>
+        </tr>
+      </tbody>
+    </table>
+    </section>
+    <hr>
+
+    <section>
+        <form action="" method="get" name="register">
+            <table cellspacing="10">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="name">
+                              Name:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="your name" name="name" required id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ps">
+                             Password:
+                           </label>
+                        </td>
+                        <td>
+                            <input type="password" placeholder="password" name="password" required id="ps">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender:
+                        </td>
+                        <td>
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" required id="male">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" required id="female">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">
+                              Email:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="your email" name="email" required id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                              Phone no:
+                        </td>
+                        <td>
+                            <select>
+                                <option value="">+374</option>
+                                <option value="">099</option>
+                                <option value="">091</option>
+                                <option value="">093</option>
+                                <option value="">055</option>
+                            </select>
+                            <input type="number" placeholder="your number" name="phone" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit">
+                        </td>
+                        <td>
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </section>
+    <hr>
+</body>
+</html>
